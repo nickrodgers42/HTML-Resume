@@ -1,0 +1,95 @@
+@font-face {
+    font-family: "Century Gothic";
+    src: url(fonts/GOTHIC.ttf) format("truetype");
+}
+
+.header {
+	background-color: #6482ba;
+	text-align: center;
+	opacity: .9;
+	margin: 0 auto 0 auto;
+	width: 75%;
+	box-shadow: 10px 10px black;
+}
+
+.header h1 {
+	font-family:"Century Gothic", Verdana;
+	color:#ffffff;
+	margin: 0;
+	padding: 20px 0 5px;
+}
+.header p {
+	font-size: 18px;
+	margin: 0 0 0 0;
+	padding: 5px 0 10px;
+	font-weight: bold;
+	color: #d3d3d3;
+}
+.header ul {
+	color: #ffffff
+	text-decoration: none;
+	padding: 0 0 10px;
+	margin: 0 0 10px;
+}
+.header li {
+	text-decoration: none;
+	display: inline;
+	color: #ffffff;
+	padding: 0 10px 0;
+}
+
+.header a {
+	text-decoration: none;
+	color: #ffffff;
+}
+.header a:hover {
+	text-decoration: underline #ffffff;
+	
+}
+
+body{
+	font-family: "Century Gothic", Verdana;
+	background: #ffffff url("photos/star-background.gif") right top repeat;
+	
+}
+.body{
+	margin: 15px auto 10px auto;
+	padding: 0 0 10px 0;
+	width: 50%;
+	background-color: #e5e5e5;
+	opacity: .75;
+}
+.body h1 {
+	padding: 10px 10px;
+	font-size: 30px;
+	margin: 0;
+}
+.body h2 {
+	padding: 10px 10px;
+	margin: 0;
+}
+.body h3 {
+	padding: 10px 10px;
+	margin: 0;
+}
+.body h4 {
+	padding:0 15px 0;
+	margin: 5px 0;
+}
+.body p {
+	padding: 0 15px;
+	margin: 0;
+}
+.body ul{
+	padding:0;
+	margin: 5px 0 10px;
+}
+.body li{
+	padding: 0 5px;
+	margin: 0 45px;
+}
+.body ul ul {
+	padding: 0 30px 0;
+	margin: 0;
+	
+}
